@@ -49,18 +49,17 @@ ul.navlist li a:hover {
 /**** Styling for main part */
 
 main {
-    .flex-container{
-        display: flex;
-        flex-wrap: wrap;
-        width:fit-content;
-        min-height:fit-content;
-        height: fit-content;
-        border-bottom: 0.5rem solid;
-        box-sizing: border-box;
-        /*ToDo: Make this a flexible container; 
-        You can find the following helpful: display, flex-wrap, width, min-height, height
-        See lecture slides*/
-    }
+
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    min-height:fit-content;
+    height: fit-content;
+    border-bottom: 0.5rem solid;
+    box-sizing: border-box;
+    /*ToDo: Make this a flexible container; 
+    You can find the following helpful: display, flex-wrap, width, min-height, height
+    See lecture slides*/
 }
 
 section, aside {
@@ -72,12 +71,14 @@ section, aside {
 aside {
     /*ToDo: Set width.ToDo: For fluid layouts, use min-width, max-width, and set to relative 
    values, like 25% of the page.*/ 
+    width:25%;
     background-color: #deded8;
 }
 
 section {
     /*ToDo: Set width. For fluid layouts, use min-width, max-width, and set to relative 
    values, like 75% of the page.*/
+   width: 75%;
 }
 
 /*Styling for search in aside*/
@@ -106,11 +107,12 @@ section {
 @media screen and (max-width: 700px) {
     /* ToDo: Style aside and section so that they take 100% width on small screens*/
     aside {
-    
+        width: 100%;
+
     }
     
     section {
- 
+        width: 100%;
     }
 
     #hiddenSection{
