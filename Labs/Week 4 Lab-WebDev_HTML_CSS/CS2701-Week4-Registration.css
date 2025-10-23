@@ -49,12 +49,18 @@ ul.navlist li a:hover {
 /**** Styling for main part */
 
 main {
-    border-bottom: 0.5rem solid;
-    box-sizing: border-box;
-    /*ToDo: Make this a flexible container; 
-    You can find the following helpful: display, flex-wrap, width, min-height, height
-    See lecture slides*/
-    
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        width:fit-content;
+        min-height:fit-content;
+        height: fit-content;
+        border-bottom: 0.5rem solid;
+        box-sizing: border-box;
+        /*ToDo: Make this a flexible container; 
+        You can find the following helpful: display, flex-wrap, width, min-height, height
+        See lecture slides*/
+    }
 }
 
 section, aside {
