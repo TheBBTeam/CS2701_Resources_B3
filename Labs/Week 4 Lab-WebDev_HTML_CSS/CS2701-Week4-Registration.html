@@ -13,6 +13,14 @@
                        each list item should correspond to the menu items (Home, Register, Login, Help)
                        The css class of the menu is "navlist"
                        Check lecture slides about lists, an example of a more basic menu, and CSS class selector-->
+        
+                    <ul>
+                        <li>Home</li>
+                        <li>Register</li>
+                        <li>Login</li>
+                        <li>Help</li>
+                    </ul>
+            
             <ul class="navlist">
             </ul>
          </nav>
@@ -33,11 +41,35 @@
                            and how to create a button that would react to a click Event
                         -->
                     <!-- Example given for user type checkboxes-->
-                    
+                    <label for="name">Name:</label><br>
+                    <input type="text" id = "name" name = "name"><br>	
+
+                    <label for="email">Email:</label><br>
+                    <input type="text" id = "email" name = "email"><br>
+
+                    <label for="password">Password:</label><br>
+                    <input type="text" id = "password" name = "password"><br>
+ 
+                    <label for="retyped_password">Re-type password:</label><br>
+                    <input type="text" id = "retyped_password" name = "retyped_password"><br>
+
+
                     <input type="checkbox" id="buyer" name="buyer" value="buyer">
                     <label for="buyer">I want to buy produce directly from allotment owners.</label><br>
                     <input type="checkbox" id="seller" name="seller" value="seller">
                     <label for="seller">I want to sell produce from my allotment.</label><br><br>
+                    
+                    <br>                    
+                    <input type="checkbox" id="terms_of_service" name="terms_of_service" value="terms_of_service">
+                    <label for="terms_of_service">I agree to the Terms of Use and Privacy Policy.</label><br>
+
+
+
+
+
+                    <input type="submit" value="Register">
+                    
+                    <a href="https://www.w3schools.com/">Learn more</a>
 
                     <br><br>
                 </form>
